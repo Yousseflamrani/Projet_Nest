@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #007bff; /* Couleur plus moderne */
+    color: white; /* Texte blanc pour contraste */
+    padding: 16px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.task-list {
+    margin: 20px auto; /* Centrer la liste */
+    padding: 20px;
+    max-width: 600px; /* Largeur maximale pour un aspect plus élégant */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.task-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list ul li {
+    padding: 15px;
+    border-bottom: 1px solid #eee; /* Couleur plus douce pour la séparation */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espacer le contenu et les actions */
+}
+
+.task-list ul li:last-child {
+    border-bottom: none;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-top: 20px;
+    width: calc(100% - 24px); /* Ajustement de la largeur */
+    box-sizing: border-box; /* Inclure padding dans la largeur */
+    border-radius: 4px;
+    border: 1px solid #ccc; /* Bordure plus subtile */
+}
+
+button {
+    background-color: #28a745; /* Vert plus vif */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    display: block;
+    margin: 20px auto;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Animation douce */
+}
+
+button:hover {
+    background-color: #218838; /* Assombrir au survol */
+}
